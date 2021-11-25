@@ -2,6 +2,21 @@
 
 Server Side Rendering REST API used for managing books.
 
+- [library-management](#library-management)
+  * [Screenshots](#screenshots)
+  * [Tech Stack](#tech-stack)
+  * [Environment Variables](#environment-variables)
+  * [Run Locally](#run-locally)
+  * [API Reference](#api-reference)
+      - [Get all books](#get-all-books)
+      - [Get book](#get-book)
+      - [Create book](#create-book)
+      - [Update book](#update-book)
+      - [Delete book](#delete-book)
+  * [Author](#author)
+  * [Lessons Learned](#lessons-learned)
+  * [Feedback](#feedback)
+
 ## Screenshots
 
 [![App Screenshot](https://i.postimg.cc/0QVPhPmb/image.png)](https://postimg.cc/9Rw673Lh)
