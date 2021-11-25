@@ -138,9 +138,9 @@ By implementing this project, I enforced my knowledge in the following areas:
 
 - Designing and implementing a REST API
 - Implementing a server with Express.js and MongoDB
-- Client - Frontend data transfer and communication
+- Client <-> Frontend data transfer and communication
 - Implementing Server Side Rendering in a full-stack project
 
 ## Feedback
 
-If you have any feedback, please reach out at karp.adrian@protonmail.com
+If you have any feedback, please reach out @ karp.adrian@protonmail.com
