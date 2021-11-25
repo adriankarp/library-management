@@ -4,7 +4,7 @@ Server Side Rendering REST API used for managing books.
 
 ## Screenshots
 
-![App Screenshot](https://pasteboard.co/fjYV6WZ0UIFJ.png)
+[![App Screenshot](https://i.postimg.cc/0QVPhPmb/image.png)](https://postimg.cc/9Rw673Lh)
 
 ## Tech Stack
 
