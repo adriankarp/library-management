@@ -4,8 +4,9 @@
 logs
 **/*.backup.*
 **/*.back.*
-yarn.lock.
+yarn.lock
 package.lock.json
+build
 
 node_modules
 bower_components

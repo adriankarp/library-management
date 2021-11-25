@@ -2,6 +2,10 @@
 
 Server Side Rendering REST API used for managing books.
 
+## Screenshots
+
+![App Screenshot](https://pasteboard.co/fjYV6WZ0UIFJ.png)
+
 ## Tech Stack
 
 **Client:** React, Axios
