@@ -113,7 +113,7 @@ Start the server from root folder
 #### Update book
 
 ```http
-  PUT /books/title
+  PUT /books/:title
 ```
 
 | Parameter   | Type      | Description                        |
@@ -125,7 +125,7 @@ Start the server from root folder
 #### Delete book
 
 ```http
-  DELETE /books/title
+  DELETE /books/:title
 ```
 
 ## Author
