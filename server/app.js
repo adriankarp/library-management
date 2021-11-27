@@ -10,6 +10,9 @@ const path = require('path');
 // creating express object
 const app = express();
 
+if (process.env.NODE_ENV !== 'PRODUCTION')
+  require('dotenv').config({ path: './config/config.env' });
+
 // setting up modules
 app.use(cors());
 app.use(helmet());

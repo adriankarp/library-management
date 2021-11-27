@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 
 // .env file config
-require('dotenv').config({ path: './config/config.env' });
+if (process.env.NODE_ENV !== 'PRODUCTION')
+  require('dotenv').config({ path: './config/config.env' });
 
 // modules importing
 const app = require('./app');

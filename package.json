@@ -17,7 +17,8 @@
     "postinstall": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm install --prefix server && NPM_CONFIG_PRODUCTION=false && npm run prod --prefix server"
   },
   "eslintConfig": {
     "extends": [
