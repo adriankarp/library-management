@@ -9,7 +9,7 @@ const Form = () => {
     event.preventDefault();
     if (bookName && bookAuthor) {
       try {
-        await axios.post('http://localhost:8000/books', {
+        await axios.post('/books', {
           title: bookName,
           author: bookAuthor,
         });

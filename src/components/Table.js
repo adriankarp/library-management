@@ -5,7 +5,7 @@ const Table = () => {
   const [booksArr, setBooksArr] = useState([]);
 
   const getBooks = async () => {
-    const response = await axios.get('http://localhost:8000/books');
+    const response = await axios.get('/books');
     try {
       setBooksArr(response.data.books);
     } catch (error) {
@@ -16,9 +16,7 @@ const Table = () => {
   const removeBook = async (index) => {
     if (booksArr) {
       try {
-        await axios.delete(
-          `http://localhost:8000/books/${booksArr[index]._id}`
-        );
+        await axios.delete(`/books/${booksArr[index]._id}`);
       } catch (error) {
         alert(error.message);
       }
@@ -28,11 +26,11 @@ const Table = () => {
   const availableHandler = async (index, available) => {
     try {
       if (available === true) {
-        await axios.put(`http://localhost:8000/books/${booksArr[index]._id}`, {
+        await axios.put(`/books/${booksArr[index]._id}`, {
           available: 'false',
         });
       } else if (available === false) {
-        await axios.put(`http://localhost:8000/books/${booksArr[index]._id}`, {
+        await axios.put(`/books/${booksArr[index]._id}`, {
           available: 'true',
         });
       }
