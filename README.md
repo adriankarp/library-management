@@ -2,9 +2,24 @@
 
 Server Side Rendering REST API used for managing books.
 
+- [library-management](#library-management)
+  * [Screenshots](#screenshots)
+  * [Tech Stack](#tech-stack)
+  * [Environment Variables](#environment-variables)
+  * [Run Locally](#run-locally)
+  * [API Reference](#api-reference)
+      - [Get all books](#get-all-books)
+      - [Get book](#get-book)
+      - [Create book](#create-book)
+      - [Update book](#update-book)
+      - [Delete book](#delete-book)
+  * [Author](#author)
+  * [Lessons Learned](#lessons-learned)
+  * [Feedback](#feedback)
+
 ## Screenshots
 
-![App Screenshot](https://pasteboard.co/fjYV6WZ0UIFJ.png)
+[![App Screenshot](https://i.postimg.cc/0QVPhPmb/image.png)](https://postimg.cc/9Rw673Lh)
 
 ## Tech Stack
 
@@ -98,7 +113,7 @@ Start the server from root folder
 #### Update book
 
 ```http
-  PUT /books/title
+  PUT /books/:title
 ```
 
 | Parameter   | Type      | Description                        |
@@ -110,7 +125,7 @@ Start the server from root folder
 #### Delete book
 
 ```http
-  DELETE /books/title
+  DELETE /books/:title
 ```
 
 ## Author
@@ -123,9 +138,9 @@ By implementing this project, I enforced my knowledge in the following areas:
 
 - Designing and implementing a REST API
 - Implementing a server with Express.js and MongoDB
-- Client - Frontend data transfer and communication
+- Client <-> Frontend data transfer and communication
 - Implementing Server Side Rendering in a full-stack project
 
 ## Feedback
 
-If you have any feedback, please reach out at karp.adrian@protonmail.com
+If you have any feedback, please reach out @ karp.adrian@protonmail.com
